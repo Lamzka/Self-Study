@@ -54,6 +54,7 @@ void CheckAwsner()
 
         GameStart();
     }
+}
 
     void GenerateCPUAwnser()
     {
