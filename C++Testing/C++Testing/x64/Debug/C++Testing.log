@@ -1,0 +1,5 @@
+﻿  C++Testing.cpp
+C:\Users\230560\source\repos\C++Testing\C++Testing\C++Testing.cpp(58,10): error C2601: 'GenerateCPUAwnser': local function definitions are illegal
+C:\Users\230560\source\repos\C++Testing\C++Testing\C++Testing.cpp(34): message : this line contains a '{' which has not yet been matched
+C:\Users\230560\source\repos\C++Testing\C++Testing\C++Testing.cpp(60,19): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\230560\source\repos\C++Testing\C++Testing\C++Testing.cpp(61,24): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
