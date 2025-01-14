@@ -1,1 +1,3 @@
-﻿  C++Testing.vcxproj -> C:\Users\230560\Self-Study\C++Testing\VisualStudio\RockPaperScissors\x64\Debug\C++Testing.exe
+﻿  C++Testing.cpp
+C:\Users\230560\Self-Study\C++Testing\VisualStudio\RockPaperScissors\C++Testing\C++Testing.cpp(22,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  C++Testing.vcxproj -> C:\Users\230560\Self-Study\C++Testing\VisualStudio\RockPaperScissors\x64\Debug\C++Testing.exe
