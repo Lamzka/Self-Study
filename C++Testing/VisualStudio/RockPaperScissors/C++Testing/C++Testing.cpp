@@ -6,13 +6,13 @@ using namespace std;
 
 string UserInput;
 
-string RightAwnsers[9] = { "ROCK","Rock","rock", "PAPER", "Paper","paper", "SCISSORS", "Scissors", "scissors" };
+string RightAnswer[9] = { "ROCK","Rock","rock", "PAPER", "Paper","paper", "SCISSORS", "Scissors", "scissors" };
 
 
 
 void GameStart();
-void CheckAwsner();
-void GenerateCPUAwnser();
+void CheckAnswer();
+void GenerateCPUAnswer();
 
 int main()
 {
@@ -27,19 +27,19 @@ void GameStart()
     cout << "what shall you choose?\n";
     cin >> UserInput;
     system("cls");
-    CheckAwsner();
+    CheckAnswer();
 }
 
-void CheckAwsner()
+void CheckAnswer()
 {
     bool ValidAwnser = NULL;
 
-    for (int i = 0; i < sizeof(RightAwnsers) / sizeof(RightAwnsers[0]); i++)
+    for (int i = 0; i < sizeof(RightAnswer) / sizeof(RightAnswer[0]); i++)
     {
-        if (UserInput == RightAwnsers[i])
+        if (UserInput == RightAnswer[i])
         {
             ValidAwnser = true;
-            GenerateCPUAwnser();
+            GenerateCPUAnswer();
         }
     }
 
@@ -47,18 +47,19 @@ void CheckAwsner()
     {
        cout << "please choose one of these Values\n";
 
-      for (int i = 0; i < sizeof(RightAwnsers) / sizeof(RightAwnsers[0]); i++)
+      for (int i = 0; i < sizeof(RightAnswer) / sizeof(RightAnswer[0]); i++)
        {
-          cout << RightAwnsers[i] << endl;
+          cout << RightAnswer[i] << endl;
        }
 
         GameStart();
     }
 }
 
-    void GenerateCPUAwnser()
+    void GenerateCPUAnswer()
     {
         srand(time(NULL));
         int RandNumber = (rand() * 1.0 / RAND_MAX * 3) + 1;
     }
+
 
