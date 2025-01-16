@@ -1,6 +1,7 @@
 #include <iostream> 
 #include <cstdlib>
 #include <ctime>
+#include <map>
 
 using namespace std;
 
@@ -9,7 +10,7 @@ string UserInput;
 string RightAwnsers[9] = { "ROCK","Rock","rock", "PAPER", "Paper","paper", "SCISSORS", "Scissors", "scissors" };
 
 
-
+void InitializeMap();
 void GameStart();
 void CheckAwsner();
 void GenerateCPUAwnser();
@@ -28,6 +29,25 @@ void GameStart()
     cin >> UserInput;
     system("cls");
     CheckAwsner();
+}
+
+void InitializeMap() 
+{
+    map<string, int> Combinations =
+    {
+        {"ROCK", 1},
+        {"Rock", 1},
+        {"rock", 1},
+
+        {"PAPER", 2},
+        {"Paper", 2},
+        {"paper", 2},
+
+        {"SCISSORS", 3},
+        {"Scissors", 3},
+        {"scissors", 3}
+    };
+
 }
 
 void CheckAwsner()
@@ -60,5 +80,15 @@ void CheckAwsner()
     {
         srand(time(NULL));
         int RandNumber = (rand() * 1.0 / RAND_MAX * 3) + 1;
+
+        switch (RandNumber)
+        {
+          case 1: break;
+
+          case 2: break;
+
+          case 3: break;
+        }
+
     }
 
