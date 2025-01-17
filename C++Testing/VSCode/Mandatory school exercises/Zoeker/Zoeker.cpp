@@ -7,21 +7,39 @@
 
 using namespace std;
 
-
+void SeperateInput();
 
 //List with Inputs that has to be decoded
 list<string> Input{ "maan", "zon", "3", "ster", "zon", "planeten", "2", "zon", "maan", "4", "ster", "3", "kompas", "5", "zon", "maan", "planeten", "6", "ster", "7", "maan", "zon", "planeten", "8", "maan", "ster", "zon", "9", "planeten", "10", "maan", "zon", "11", "ster", "12", "zon", "13" };
+
 
 map<string, int> StoredInputs; //stores a string and its value
 
 
 int currentCount = 10; //current count for next new value
 
+
 long long CurrentAmount; //output
 
 
-void SeperateInput(); //Declare fucntion
-bool TryParse(const string& str, int& result); //Declare fucntion
+bool TryParse(const string& str, int& result) //checks if string has a number and returns the number
+{
+	try //try to convert string to int
+	{
+		result = stoi(str);
+
+		return true;
+	}
+	catch (invalid_argument) //if string is not a number return false
+	{
+		return false;
+	}
+	catch (out_of_range) //if string is not a number return false
+	{
+		return false;
+	}
+	
+}
 
 //main
 int main()
@@ -55,23 +73,6 @@ void SeperateInput()
 	}
 }
 
-bool TryParse(const string& str, int& result) //checks if string has a number and returns the number
-{
-	try //try to convert string to int
-	{
-		result = stoi(str);
 
-		return true;
-	}
-	catch (invalid_argument) //if string is not a number return false
-	{
-		return false;
-	}
-	catch (out_of_range) //if string is not a number return false
-	{
-		return false;
-	}
-
-}
 
 
