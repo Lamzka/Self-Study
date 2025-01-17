@@ -1,4 +1,4 @@
- #include <iostream> 
+#include <iostream> 
 #include <cstdlib>
 #include <ctime>
 #include <map>
@@ -14,9 +14,22 @@ list<string> scripts{"maan", "zon", "3", "ster", "zon", "planeten", "2", "zon", 
 
 map<string, int> Input;
 
+
+bool DoesHaveInt(const string& str, int& result)
+{
+	
+	try 
+	{
+		result = std::stoi(str);
+
+		return true
+	}
+	
+}
+
 int main()
 {
-
+	SeperateInput();
 
 
 
@@ -26,11 +39,11 @@ int main()
 
 void SeperateInput() 
 {
-	float CurrentAmount;
+	long CurrentAmount;
 
-	foreach(string script, scripts)
+	for(string script : scripts)
 	{
-		if(isdigit(script)
+		if(DoesHaveInt(script))
 		{
 			CurrentAmount * stoi(script);
 		}

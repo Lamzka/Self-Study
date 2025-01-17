@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lamzka\\Self-Study\\C\u002B\u002BTesting\\VSCode\\Mandatory school exercises\\Zoeker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{287312CB-2D85-444C-8664-7566EC6324C4}|Zoeker.vcxproj|C:\\Users\\Lamzka\\Self-Study\\C\u002B\u002BTesting\\VSCode\\Mandatory school exercises\\Zoeker\\Zoeker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{287312CB-2D85-444C-8664-7566EC6324C4}|Zoeker.vcxproj|solutionrelative:Zoeker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Zoeker.cpp",
+              "DocumentMoniker": "C:\\Users\\Lamzka\\Self-Study\\C\u002B\u002BTesting\\VSCode\\Mandatory school exercises\\Zoeker\\Zoeker.cpp",
+              "RelativeDocumentMoniker": "Zoeker.cpp",
+              "ToolTip": "C:\\Users\\Lamzka\\Self-Study\\C\u002B\u002BTesting\\VSCode\\Mandatory school exercises\\Zoeker\\Zoeker.cpp",
+              "RelativeToolTip": "Zoeker.cpp",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-17T12:39:45.433Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
